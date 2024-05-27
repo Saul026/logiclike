@@ -1,0 +1,12 @@
+.topic {
+    width: 240px;
+    height: 42px;
+    padding: 12px;
+    border-radius: 12px;
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    text-align: left;
+}

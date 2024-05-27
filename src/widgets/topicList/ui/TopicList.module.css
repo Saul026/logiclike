@@ -1,0 +1,9 @@
+.topics {
+    width: 264px;
+    height: max-content;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(207, 207, 228);
+    border-radius: 18px;
+}
