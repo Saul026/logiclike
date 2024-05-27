@@ -1,7 +1,7 @@
 import React, { FC, useEffect, useState, useCallback } from 'react';
 import classes from './CardList.module.scss';
 import { Course, getCourses } from 'shared/api/courses';
-import { Card } from 'widgets/card/ui/Card';
+import { Card } from 'entities/card/ui/Card';
 
 interface Props {
     activeTag: string;
