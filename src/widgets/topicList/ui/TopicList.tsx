@@ -1,5 +1,5 @@
 import { Topic } from 'widgets/topic/ui/Topic';
-import classes from './TopicList.module.css';
+import classes from './TopicList.module.scss';
 import React, { FC } from 'react';
 import { topicsArray } from 'shared/const/TopicsArray';
 

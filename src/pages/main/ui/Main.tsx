@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import { CardList } from 'widgets/cardList';
 import { TopicList } from 'widgets/topicList';
-import classes from "./Main.module.css"
+import classes from './Main.module.scss';
 
 export const Main = React.memo(() => {
     const [activeTag, setActivetag] = useState<string>('Все темы');

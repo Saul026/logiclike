@@ -1,6 +1,6 @@
-import './styles/reset.css';
-import './styles/index.css';
+import './styles/index.scss';
 import { Main } from 'pages/main';
+
 const App = () => {
     return (
         <div className='App'>

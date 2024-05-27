@@ -1,5 +1,5 @@
 import React, { FC, useMemo } from 'react';
-import classes from './Topic.module.css';
+import classes from './Topic.module.scss';
 
 interface Props {
     outputTag: string;

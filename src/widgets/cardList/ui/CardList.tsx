@@ -1,5 +1,5 @@
 import React, { FC, useEffect, useState, useCallback } from 'react';
-import classes from './CardList.module.css';
+import classes from './CardList.module.scss';
 import { Course, getCourses } from 'shared/api/courses';
 import { Card } from 'widgets/card/ui/Card';
 
@@ -23,7 +23,7 @@ export const CardList: FC<Props> = React.memo(({ activeTag }) => {
         activeTag === 'Все темы' ? courses : courses.filter((course) => course.tags.includes(activeTag));
 
     return (
-        <div className={classes.cards} style={{height: filteredCourses.length < 4 ? "max-content" : "auto"}}>
+        <div className={classes.cards} style={{ height: filteredCourses.length < 4 ? 'max-content' : 'auto' }}>
             {filteredCourses.map((course) => (
                 <Card card={course} key={course.id} />
             ))}

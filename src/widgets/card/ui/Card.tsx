@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import classes from './Card.module.css';
+import classes from './Card.module.scss';
 import { Course } from 'shared/api/courses';
 
 interface Props {
